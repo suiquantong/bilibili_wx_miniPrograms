@@ -66,7 +66,6 @@ Page({
       success(res) {
         //判断请求成功
         if (res.data.code === 0) {
-          console.log(res)
           that.setData({
             videoList: res.data.data.videosList
           })
